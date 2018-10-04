@@ -43,7 +43,7 @@ def add_bot(host, user, password):
     new_bot = Bot(host, user, password)
     botnet.append(new_bot)
 
-add_bot('10.0.0.59', '', '')
+add_bot('45.30.83.4', 'User 1', '2016')
 
 # list user home directory
 command_bots('ls')
